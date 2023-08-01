@@ -10,8 +10,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
         with:
-          repository: foo-user/bar-repo
-          path: './bar'
+          repository: GaushiDevOps/python-project
           fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v1
