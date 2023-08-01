@@ -1,10 +1,10 @@
-name: Build
+name: CI
 on: push
 
 jobs:
  
   sonarqube:
-    name: SonarQube Scan CI
+    name: SonarQube Scan for Nodejs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
